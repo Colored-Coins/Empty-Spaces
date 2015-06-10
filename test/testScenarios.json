@@ -1,0 +1,42 @@
+[
+  {
+    "pathToCheck": "/data",
+    "maximumSize": 50,
+    "retryTime": 10000
+  },
+  {
+    "pathToCheck": "/data",
+    "maximumSize": "10%",
+    "retryTime": 0
+  },
+  {
+    "pathToCheck": "/data",
+    "maximumSize": 10,
+    "retryTime": 10000
+  },
+  {
+    "pathToCheck": "/data",
+    "maximumSize": "0.01%",
+    "retryTime": 10000
+  },
+  {
+    "pathToCheck": "/data",
+    "maximumSize": 50,
+    "retryTime": 10000
+  },
+  {
+    "pathToCheck": "/data",
+    "maximumSize": "10%",
+    "retryTime": 0
+  },
+  {
+    "pathToCheck": "/data",
+    "maximumSize": 10,
+    "retryTime": 10000
+  },
+  {
+    "pathToCheck": "/data",
+    "maximumSize": "0.01%",
+    "retryTime": 10000
+  }
+]
