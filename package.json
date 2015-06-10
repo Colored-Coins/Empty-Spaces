@@ -1,5 +1,5 @@
 {
-  "name": "junk-check-trunk",
+  "name": "empty-spaces",
   "version": "0.1.3",
   "description": "Checking how much space needs to be cleared given folder and maximum size allowed (fixed or precent out of hard-disk)",
   "main": "checkFreeSpace.js",
