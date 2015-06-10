@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Colored-Coins/AssetId.git"
+    "url": "https://github.com/Colored-Coins/Empty-Spaces.git"
   },
   "dependencies": {
     "async": "^0.9.0",
