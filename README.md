@@ -17,9 +17,9 @@ Params:
 
 ```js
 {
-  "pathToCheck": ,
-  "maximumSize": ,
-  "diskNotReadyRetryTime": ,
+  "pathToCheck": "The folder path to check",
+  "maximumSize": "The maximum size in either amount in MB or precent in the form of 34%",
+  "retryTime": "Time to wait before retring in case the disk is currently busy"
 }
 ```
 
@@ -54,7 +54,7 @@ var checkFreeSpace = require('checkFreeSize')
 var options = {
   "pathToCheck": ".", // Will check the current folder
   "maximumSize": 50,
-  "diskNotReadyRetryTime": 10000
+  "retryTime": 10000
 }
 
 checkFreeSpace(options, function (err, result) {
