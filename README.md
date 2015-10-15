@@ -1,6 +1,8 @@
 # Empty-Spaces
 [![Build Status](https://travis-ci.org/Colored-Coins/Empty-Spaces.svg?branch=master)](https://travis-ci.org/Colored-Coins/Empty-Spaces) [![Coverage Status](https://coveralls.io/repos/Colored-Coins/Empty-Spaces/badge.svg?branch=master)](https://coveralls.io/r/Colored-Coins/Empty-Spaces?branch=master) [![npm version](https://badge.fury.io/js/empty-spaces.svg)](http://badge.fury.io/js/empty-spaces)
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 Check checks if a certain folder takes more space then desired
 
 ### Installation
@@ -18,7 +20,7 @@ Params:
 ```js
 {
   "pathToCheck": "The folder path to check",
-  "maximumSize": "The maximum size in either amount in MB or precent in the form of 34%",
+  "maximumSize": "The maximum size in either amount in MB or percent in the form of 34%",
   "retryTime": "Time to wait before retring in case the disk is currently busy"
 }
 ```
