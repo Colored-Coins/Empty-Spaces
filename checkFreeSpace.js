@@ -38,7 +38,7 @@ module.exports = function (opt, cb) {
 
         diskspace.check(pathToCheck, keepTrying)
       } else {
-        callback(null, 0, 0, 'NOTPRECENT')
+        callback(null, 0, 0, 'NOTPERCENT')
       }
     }
   ], function (err, total, free, status) {
@@ -47,14 +47,14 @@ module.exports = function (opt, cb) {
     // READY - The drive is ready
     // NOTREADY - The drive isn't ready, the space values will be 0
     // STDERR - some error, the output of it was logged to the console.
-    // NOTPRECENT - The maximumSize is already in absolute size
+    // NOTPERCENT - The maximumSize is already in absolute size
     switch (status) {
       case 'READY':
           free = (free / 1024 / 1024).toFixed(2)
           maximumSize = maximumSize.split('%')[0] / 100
           maximumSize = (maximumSize * free).toFixed(2)
           break
-      case 'NOTPRECENT':
+      case 'NOTPERCENT':
           break
       default:
         return cb(new Error(status))
