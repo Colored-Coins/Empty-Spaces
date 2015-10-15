@@ -1,6 +1,6 @@
 {
   "name": "empty-spaces",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Checking how much space needs to be cleared given folder and maximum size allowed (fixed or percent out of hard-disk)",
   "main": "checkFreeSpace.js",
   "directories": {
